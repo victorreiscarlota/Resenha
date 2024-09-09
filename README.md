@@ -4,15 +4,17 @@
 
 ![doggo](https://media.tenor.com/8plhmX7JP9YAAAAC/study.gif)
 
+Caso opte, pode acessar a resenha de um artigo específico clicando no link abaixo:
 
+[Leia a resenha atual: big_ball_of_mud](./resenhas/big_ball_of_mud.md)
 
-# Atualmente, a resenha do artigo disponível é:
+# O artigo para a entrega atual é:
 
 ## Artigo Atual
 
-**Título:** Big Ball of Mud
+**Título:** big_ball_of_mud
 
-**Descrição:** Resenha do artigo *Big Ball of Mud*.
+**Descrição:** Resenha do artigo *big_ball_of_mud*.
 
 ## Resenha
 
