@@ -1,6 +1,6 @@
 # Technology Radar Volume 30 - Resenha Crítica
 
-![Capa](/assets/Capa.png)
+![Capa](/assets/CapaTR.png)
 
 ## Sumário
 
