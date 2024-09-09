@@ -73,7 +73,7 @@ O estudo destaca a importância da arquitetura de software para o sucesso de um 
 
 ## Referências
 
-1. Foote, B., & Yoder, J. (1997). *Big Ball of Mud*.
+1. Foote, B., & Yoder, J. (1997). *Big Ball of Mud*. [Artigo abordado](/artigos/mud%20(1).pdf)
 
 ## Assinatura
 
