@@ -4,7 +4,7 @@
 CONFIG_FILE="./config.txt"
 
 
-CAMINHO_RESENHAS="./Resenhas/"
+CAMINHO_RESENHAS="./resenhas/"
 
 
 CAMINHO_README="./README.md"
