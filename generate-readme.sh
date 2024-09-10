@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Caminho para o arquivo de configuração
-ARQUIVO_CONFIG="./config.txt"
+# Caminho para o arquivo de configuração com datas e resenhas
+CONFIG_FILE="./config.txt"
 
 # Caminho para a pasta de resenhas
 CAMINHO_RESENHAS="./resenhas/"
@@ -9,20 +9,26 @@ CAMINHO_RESENHAS="./resenhas/"
 # Caminho para o arquivo README.md
 CAMINHO_README="./README.md"
 
-# Data atual no formato YYYY-MM-DD
+# Obtém a data atual no formato YYYY-MM-DD
 DATA_ATUAL=$(date +"%Y-%m-%d")
 
-# Verificar qual resenha deve ser exibida com base na data atual
-RESENHA_ATUAL=$(grep "^$DATA_ATUAL:" $ARQUIVO_CONFIG | cut -d':' -f2)
+# Inicializa variáveis
+RESENHA_ATUAL=""
+NOME_ARTIGO=""
 
-# Se a resenha atual não for encontrada, exiba uma mensagem padrão
+# Lê o arquivo de configuração para encontrar a resenha correspondente à data atual
+while IFS=',' read -r data_entrega nome_arquivo nome_artigo; do
+    if [[ "$DATA_ATUAL" == "$data_entrega" || "$DATA_ATUAL" > "$data_entrega" ]]; then
+        RESENHA_ATUAL=$nome_arquivo
+        NOME_ARTIGO=$nome_artigo
+    fi
+done < "$CONFIG_FILE"
+
+# Se nenhuma resenha foi encontrada, sai com erro
 if [ -z "$RESENHA_ATUAL" ]; then
-    echo "Nenhuma resenha definida para hoje." > $CAMINHO_README
+    echo "Nenhuma resenha encontrada para a data atual."
     exit 1
 fi
-
-# Nome do artigo atual (deve corresponder ao nome do arquivo da resenha sem a extensão)
-NOME_ARTIGO=$(basename "$RESENHA_ATUAL" .md)
 
 # Cabeçalho do README.md
 HEAD="\
@@ -45,9 +51,8 @@ Caso opte, pode acessar a resenha de um artigo específico clicando no link abai
 **Descrição:** Resenha do artigo *$NOME_ARTIGO*.
 
 ## Resenha
-
 "
 
 # Gerar o conteúdo completo do README.md
 echo "$HEAD" > $CAMINHO_README
-cat $CAMINHO_RESENHAS$RESENHA_ATUAL >> $CAMINHO_README
+cat "$CAMINHO_RESENHAS$RESENHA_ATUAL" >> $CAMINHO_README

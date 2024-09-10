@@ -6,18 +6,17 @@
 
 Caso opte, pode acessar a resenha de um artigo específico clicando no link abaixo:
 
-[Leia a resenha atual: big_ball_of_mud](./resenhas/big_ball_of_mud.md)
+[Leia a resenha atual: Big Ball of Mud](./resenhas/big_ball_of_mud.md)
 
 # O artigo para a entrega atual é:
 
 ## Artigo Atual
 
-**Título:** big_ball_of_mud
+**Título:** Big Ball of Mud
 
-**Descrição:** Resenha do artigo *big_ball_of_mud*.
+**Descrição:** Resenha do artigo *Big Ball of Mud*.
 
 ## Resenha
-
 
 # *Big Ball of Mud* - Resenha
 

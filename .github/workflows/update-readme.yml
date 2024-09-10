@@ -1,0 +1,29 @@
+name: Atualizar Resenha Automaticamente
+
+# Define quando o GitHub Actions será executado. 
+# Neste exemplo, ele será executado todos os dias à meia-noite (UTC).
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Executa todos os dias à meia-noite
+  workflow_dispatch:  # Permite que você execute manualmente pelo GitHub Actions se quiser
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checar repositório
+        uses: actions/checkout@v3
+
+      - name: Rodar script para gerar README
+        run: |
+          chmod +x generate-readme.sh
+          ./generate-readme.sh
+
+      - name: Commit e Push das alterações no README
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "Atualizando README com a resenha do artigo atual"
+          git push
