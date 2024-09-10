@@ -7,6 +7,7 @@
 - [Technology Radar Volume 30 - Resenha Crítica](#technology-radar-volume-30---resenha-crítica)
   - [Sumário](#sumário)
   - [Resenha](#resenha)
+  - [Referências](#referências)
   - [Assinatura](#assinatura)
 
 ## Resenha
@@ -39,7 +40,13 @@ O guia faz uma boa análise sobre a evolução dos bancos de dados vetoriais, co
 
 Apesar de algumas limitações, minha impressão geral do Technology Radar Volume 30 é positiva. Ele me apresentou novas abordagens tecnológicas que eu não conhecia e mostrou maneiras claras de aplicá-las no meu dia a dia de desenvolvimento. O documento é uma excelente fonte de aprendizado sobre tendências emergentes e oferece insights práticos sobre como navegar no sempre dinâmico cenário tecnológico. Embora alguns pontos pudessem ter sido explorados com mais profundidade, o relatório oferece uma rica gama de recomendações que certamente irão impactar a forma como lido com a tecnologia em meus projetos futuros
 
+## Referências
+
+1. Thoughtworks (2024). *Thoughtworks Technology Radar*. [Artigo abordado](/artigos/tr_technology_radar_vol_30_pt-1.pdf)
+
 ## Assinatura
 
 *Resenha por:*
 Victor Reis Carlota
+
+[LinkedIn](https://www.linkedin.com/in/victor-reis-6a3a01273/) | [GitHub](https://github.com/victorreiscarlota) | [Website](https://victor-room.vercel.app)
