@@ -1,7 +1,6 @@
 name: Atualizar Resenha Automaticamente
 
 # Define quando o GitHub Actions será executado. 
-# Neste exemplo, ele será executado todos os dias à meia-noite (UTC).
 on:
   schedule:
     - cron: "0 0 * * *"  # Executa todos os dias à meia-noite
