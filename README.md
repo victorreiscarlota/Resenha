@@ -6,7 +6,8 @@
 
 Caso opte, pode acessar a resenha de um artigo específico clicando no link abaixo:
 
-[Leia a resenha atual: Microsservices](./resenhas/microsservices.md)
+[Leia a resenha atual: Microsservices
+](./resenhas/microsservices.md)
 
 # O artigo para a entrega atual é:
 
@@ -14,7 +15,8 @@ Caso opte, pode acessar a resenha de um artigo específico clicando no link abai
 
 **Título:** Microsservices
 
-**Descrição:** Resenha do artigo *Microsservices*.
+**Descrição:** Resenha do artigo *Microsservices
+*.
 
 ## Resenha
 
@@ -25,9 +27,14 @@ Caso opte, pode acessar a resenha de um artigo específico clicando no link abai
 
 ## Sumário
 
+- [Resenhas de Artigos](#resenhas-de-artigos)
+  - [Bem-vindo ao repositório de resenhas de artigos para a disciplina de Projeto de Software!](#bem-vindo-ao-repositório-de-resenhas-de-artigos-para-a-disciplina-de-projeto-de-software)
+- [O artigo para a entrega atual é:](#o-artigo-para-a-entrega-atual-é)
+  - [Artigo Atual](#artigo-atual)
+  - [Resenha](#resenha)
 - [Microservices - Resenha Crítica](#microservices---resenha-crítica)
   - [Sumário](#sumário)
-  - [Resenha](#resenha)
+  - [Resenha](#resenha-1)
   - [Referências](#referências)
   - [Assinatura](#assinatura)
 
